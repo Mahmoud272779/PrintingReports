@@ -1,0 +1,126 @@
+company : local-taif2024
+	taifalalmas001
+,pass :  5 , 5
+UI----> http://192.168.1.253:61/login  
+
+	http://192.168.1.253:8009/stores/employees
+password server --->raouf, MR@ttech123
+
+
+
+MahmoudRaouf432000@hotmail.com
+mahmoudsayed432000
+
+
+how to add user --> emp , users , صلاحيات
+
+
+([Permissions.dayId]==[Days.Id]) && ([Permissions.employeeId]==[Employees.Id])&&([Permissions.branchId]==[Branches.Id])
+
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImN0eSI6IkpXVCJ9.eyJSb2xlRGV0YWlscyI6IkorT0ZWUlJGVVhIWXNNb1I3VU1ubXc9PSIsIkRCbmFtZSI6IkpFRHUrRDExNjhDdSt5NnYwOGpQMi9LTmhESVk2MjJlNWhEUzRHVGpsYzd2RzBKYUFwcExHdXFpRVlJSEtVYm8iLCJ1c2VySUQiOiJVT1FUeGFraVNWWTdhbEE0VlNjUDRRPT0iLCJFbmRQZXJpb2RPbkVuZFBlcmlvZE9uIjoiMTIvMjgvMjAyNCAxMjowMDowMCBBTSIsImVtcGxveWVlSWQiOiJVT1FUeGFraVNWWTdhbEE0VlNjUDRRPT0iLCJDTCI6ImtXYjdkb3dzRzU4VXYyUisvVG5GclE9PSIsImlzUE9TRGVza3RvcCI6IjAiLCJpc1RlY2huaWNhbFN1cHBvcnQiOiIwIiwiaXNQZXJpb2RFbmRlZCI6IkZhbHNlIiwiZXhwIjoxNzA3MzIyMTg0LCJpc3MiOiJodHRwOi8vd3d3LlRlc3QuY29tIiwiYXVkIjoiaHR0cDovL3d3dy5UZXN0LmNvbSJ9.MlGc9RxUvij95MqEJZLfAqAzESXJJE_FpN5hrjKb2PU
+
+
+bin\Release\net6.0\publish\
+
+
+permissions and roles in devcreed
+-----------------------------------
+https://www.youtube.com/watch?v=slTben1Djz0&list=PL62tSREI9C-fGaDsCUvu5OaPWrv-mMzy-
+
+
+old attendLeaving--->https://web.apex-program.com/#/
+ttech
+040288
+moaz
+
+
+
+system design --> https://www.youtube.com/playlist?list=PLhgw50vUymycJPN6ZbGTpVKAJ0cL4OEH3
+Build with front ==>https://www.youtube.com/watch?v=G1Z_481DI4I
+
+{
+  "changefulTimeGroupsId": 21,
+  "IsRamadan": false,
+  "shifts": [
+    {
+      "isHaveShift2": false,
+"isHaveShift3": false,
+"isHaveShift4": false,
+"isRamadan": false,
+"isVacation": true,
+"shift": null,
+"shift1_End": "12:00",
+"shift1_IsExtended": false,
+"shift1_Start": "06:40",
+"shift1_endIn": "15:40",
+"shift1_endOut": "23:59",
+"shift1_lateAfter": "00:00",
+"shift1_lateBefore": "00:15",
+"shift1_startIn": "06:00",
+"shift1_startOut": "10:01",
+"shift2_End": "00:00",
+"shift2_IsExtended": false,
+"shift2_Start": "00:00",
+"shift2_endIn": "00:00",
+"shift2_endOut": "00:00",
+"shift2_lateAfter": "00:00",
+"shift2_lateBefore": "00:00",
+"shift2_startIn": "00:00",
+"shift2_startOut": "00:00",
+"shift3_End": "00:00",
+"shift3_IsExtended": false,
+"shift3_Start": "00:00",
+"shift3_endIn": "00:00",
+"shift3_endOut": "00:00",
+"shift3_lateAfter": "00:00",
+"shift3_lateBefore": "00:00",
+"shift3_startIn": "00:00",
+"shift3_startOut": "00:00",
+"shift4_End": "00:00",
+"shift4_IsExtended": false,
+"shift4_Start": "00:00",
+"shift4_endIn": "00:00",
+"shift4_endOut": "00:00",
+"shift4_lateAfter": "00:00",
+"shift4_lateBefore": "00:00",
+"shift4_startIn": "00:00",
+"shift4_startOut": "00:00",
+"totalDayHours": "09:00",
+"workDaysNumber": 6,
+"weekendNumber": 1
+    }
+  ]
+}
+
+IErpInitilizerData
+ AttendLeaving_Settings[] SetAttendLeaving_Settings(int branchId = 1);
+
+
+ resData = resData.OrderByDescending(x => x.Code);
+ .Where(x => !string.IsNullOrEmpty(parameters.Name) ? x.ArabicName.Contains(parameters.Name) || x.LatinName.Contains(parameters.Name) || x.Code.ToString().Contains(parameters.Name) : true)
+
+
+
+EditedMachineTransaction
+
+
+
+{
+  "Id": 2,
+  "BranchId": 2,
+  "is_TimeOfNeglectingMovementsInMinutes": true,
+  "TimeOfNeglectingMovementsInMinutes":"20:05:05"
+  "is_The_Minimum_Limit_For_Calculating_Overtime_For_Employees_Before_shift": true,
+  "The_Minimum_Limit_For_Calculating_Overtime_For_Employees_Before_shift":"20:05:05",
+  "is_The_Maximum_Limit_For_Calculating_Overtime_For_Employees_Before_shift": true,
+  "The_Maximum_Limit_For_Calculating_Overtime_For_Employees_Before_shift":"20:05:05",
+  "is_The_Minimum_Limit_For_Calculating_Overtime_For_Employees_After_shift": true,
+  "The_Minimum_Limit_For_Calculating_Overtime_For_Employees_After_shift": "20:05:05",
+  "is_The_Maximum_Limit_For_Calculating_Overtime_For_Employees_After_shift": true,
+  "The_Maximum_Limit_For_Calculating_Overtime_For_Employees_After_shift": "20:05:05",
+  "is_The_maximum_delay_in_minutes": true,
+  "The_maximum_delay_in_minutes": "20:05:05",
+  "is_The_Maximum_limit_for_early_dismissal_in_minutes": true,
+  "The_Maximum_limit_for_early_dismissal_in_minutes": "20:05:05",
+  "SetLastMoveAsLeave": true
+}
